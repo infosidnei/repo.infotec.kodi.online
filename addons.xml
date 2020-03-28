@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.f4mTester" version="3.0.1.1" name="f4mTester" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="3.0.1" name="f4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.video.F4mProxy" version="3.0.1.1"/>
+        <import addon="script.video.F4mProxy" version="3.0.1"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -42,42 +42,6 @@
     <description lang="pt">É um addon brasileiro. Todos os links são encontrados de forma livre na internet.</description>
     <description lang="en">Is a Brazilian addon. All links are found freely on the internet.</description>
 	<platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.iptv.Vip" name="IPTV VIP" version="0.0.2" provider-name="INFOTEC-IPTV">
-<requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.t0mm0.common"/>
-    <import addon="script.module.beautifulsoup"/>
-    <import addon="script.module.beautifulsoup4"/>
-    <import addon="script.module.simple.downloader"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.httplib2"/>
-    <import addon="script.module.urlresolver"/>
-    <import addon="script.module.simplejson"/>
-    <import addon="script.common.plugin.cache"/>
-    <import addon="script.module.metahandler"/>
-</requires>
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-	<summary lang="en"></summary>
-    <summary lang="pt"></summary>
-    <description lang="en"></description>
-	<description lang="pt"></description>
-     <disclaimer lang="en"></disclaimer>
-	 <disclaimer lang="pt"></disclaimer>
-    <platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-    </assets>
   </extension>
 </addon>
 
