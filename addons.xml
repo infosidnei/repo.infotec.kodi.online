@@ -39,7 +39,7 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="pt">O addon [COLOR springgreen]Infotec[/COLOR]. [COLOR red]IPTV[/COLOR]:</summary>
 	<summary lang="en">The addon [COLOR springgreen]Infotec[/COLOR]. [COLOR red]IPTV[/COLOR]:</summary>
-    <description lang="pt">É um addon brasileiro. Todos os links são encontrados de forma livre na internet.</description>
+    <description lang="pt">Ã‰ um addon brasileiro. Todos os links sÃ£o encontrados de forma livre na internet.</description>
     <description lang="en">Is a Brazilian addon. All links are found freely on the internet.</description>
 	<platform>all</platform>
   </extension>
@@ -61,7 +61,7 @@
 
 <addon id="script.common.plugin.cache" name="Common plugin cache" provider-name="anxdpanic, TheCollective" version="2.6.1">
     <requires>
-        <import addon="xbmc.python" version="2.24.0"/>
+        <import addon="xbmc.python" version="3.0.0"/>
     </requires>
     <extension point="xbmc.service" library="resources/lib/entry_point.py" start="startup"/>
     <extension point="xbmc.python.module" library="resources/lib/storage_server/"/>
@@ -78,6 +78,26 @@
         <license>GPL-3.0-only</license>
         <source>https://github.com/anxdpanic/script.common.plugin.cache</source>
     </extension>
+</addon>
+
+<addon id="script.module.six"
+       name="six"
+       version="1.13.0"
+       provider-name="gutworth">
+  <requires>
+    <import addon="xbmc.python"
+    		version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Python 2 and 3 compatibility utilities.</summary>
+    <description lang="en">Six is a Python 2 and 3 compatibility library. It provides utility functions for smoothing over the differences between the Python versions with the goal of writing Python code that is compatible on both Python versions. See the documentation for more information on what is provided.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <source>https://pypi.org/project/six/</source>
+    <website>https://pypi.org/project/six/</website>
+  </extension>
 </addon>
 
 <addon id="script.module.t0mm0.common"
