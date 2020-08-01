@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.infotec.iptv" name="[COLOR springgreen][B]Infotec[/B][/COLOR].[COLOR red][B]IPTV[/B][/COLOR]" version="0.0.7" provider-name="Anonymous">
+<addon id="plugin.video.infotec.iptv" name="[COLOR springgreen][B]Infotec[/B][/COLOR].[COLOR red][B]IPTV[/B][/COLOR]" version="0.0.8" provider-name="Anonymous">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -172,19 +172,6 @@
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="script.common.plugin.cache" name="Common plugin cache" provider-name="TheCollective" version="2.5.10">
-  <requires>
-    <import addon="xbmc.python" version="2.24.0" />
-  </requires>
-  <extension library="default.py" point="xbmc.service" start="startup">
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Common caching api for xbmc plugins.</summary>
-  </extension>
-  <extension library="lib" point="xbmc.python.module" />
 </addon>
 
 <addon id="script.module.six"
