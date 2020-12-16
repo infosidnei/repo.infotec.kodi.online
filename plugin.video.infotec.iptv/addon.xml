@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.infotec.iptv" name="[COLOR springgreen][B]Infotec[/B][/COLOR].[COLOR red][B]IPTV[/B][/COLOR]" version="0.0.24" provider-name="Anonymous">
+<addon id="plugin.video.infotec.iptv" name="[COLOR springgreen][B]Infotec[/B][/COLOR]-[COLOR red][B]Kodi[/B][/COLOR]-[COLOR blue][B]Online[/B][/COLOR]" version="0.0.25" provider-name="Anonymous">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -19,8 +19,8 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="pt">O addon [COLOR springgreen]Infotec[/COLOR]. [COLOR red]IPTV[/COLOR]:</summary>
-	<summary lang="en">The addon [COLOR springgreen]Infotec[/COLOR]. [COLOR red]IPTV[/COLOR]:</summary>
+    <summary lang="pt">O addon [COLOR springgreen][B]Infotec[/B][/COLOR] - [COLOR red][B]Kodi[/B][/COLOR] - [COLOR blue][B]Online[/B][/COLOR]:</summary>
+	<summary lang="en">The addon [COLOR springgreen][B]Infotec[/B][/COLOR] - [COLOR red][B]Kodi[/B][/COLOR] - [COLOR blue][B]Online[/B][/COLOR]::</summary>
     <description lang="pt">É um addon brasileiro. Todos os links são encontrados de forma livre na internet.</description>
     <description lang="en">is a Brazilian addon. All links are found freely on the internet.</description>
 	<platform>all</platform>
