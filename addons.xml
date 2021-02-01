@@ -237,23 +237,26 @@
   </extension>
 </addon>
 
-<addon id="script.module.six"
-       name="six"
-       version="1.13.0"
-       provider-name="gutworth">
+<addon id="script.module.kodi-six"
+       name="Kodi Six"
+       version="0.1.3"
+       provider-name="Roman V.M.">
   <requires>
-    <import addon="xbmc.python"
-    		version="2.14.0"/>
+    <import addon="xbmc.python" version="2.26.0"/>
   </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
+  <extension point="xbmc.python.module" library="libs" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Python 2 and 3 compatibility utilities.</summary>
-    <description lang="en">Six is a Python 2 and 3 compatibility library. It provides utility functions for smoothing over the differences between the Python versions with the goal of writing Python code that is compatible on both Python versions. See the documentation for more information on what is provided.</description>
+    <summary lang="en_GB">Wrappers around Kodi Python API for seamless Python 2/3 compatibility</summary>
+    <description lang="en_GB">Wrappers around Kodi Python API that normalize handling of textual and byte strings in Python 2 and 3.</description>
     <platform>all</platform>
-    <license>MIT</license>
-    <source>https://pypi.org/project/six/</source>
-    <website>https://pypi.org/project/six/</website>
+    <license>GPL v.3</license>
+    <forum>https://forum.kodi.tv/showthread.php?tid=327883</forum>
+    <source>https://github.com/romanvm/kodi.six</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <news>0.1.3:
+- Fix non-UTF-8 byte string decoding in Python 2.</news>
   </extension>
 </addon>
 
